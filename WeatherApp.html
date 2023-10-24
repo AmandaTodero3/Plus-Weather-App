@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/weather.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <form action="/search">
+                <input type="text" placeholder="Type a city.." />
+                <input type="submit" value="Search" />
+            </form>
+            <br />
+            <h3 class="city">Mooresville</h3>
+            <h3 class="day">Thurs 12:06pm</h3>
+            <h1>63°F</h1>
+            <br />
+            <ul>
+                <li class="precip">Precipitation:</li>
+                <li class="humid">Humidity:</li>
+            </ul>
+            <small><a href="https://github.com/AmandaTodero3/Plus-Weather-App">Open Source Code</a> by Amanda Todero</small>
+            <img src="src/cutesun.png" />
+            
+            <script src="src/index.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
